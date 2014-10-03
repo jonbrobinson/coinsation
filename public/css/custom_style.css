@@ -378,9 +378,13 @@ header .mil-logos {
 -----------------------------------------*/
 
 .features {
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 30px;
     background: #232323;
+}
+
+.features .header-custom {
+    padding-bottom: 30px;
 }
 
 .features .features-left {
@@ -411,7 +415,7 @@ header .mil-logos {
 
 .features .feature .icon-container {
     display: block;
-    min-height: 120px;
+    min-height: 150px;
     margin-top: 5px;
 }
 
@@ -441,7 +445,7 @@ header .mil-logos {
 
 
 /*---------------------------------------
-   SECTION:  BRIEF                 
+   SECTION:  BRIEF
 -----------------------------------------*/
 
 .app-brief {
@@ -463,6 +467,12 @@ header .mil-logos {
 .app-brief .phone-image img {
     width: 100%;
 }
+
+.app-brief .phone-image .image-custom{
+    width: 100%;
+    margin-top: 45px;
+}
+
 
 .app-brief .left-align {
     text-align: left;
@@ -487,6 +497,66 @@ header .mil-logos {
     margin-right: 10px;
     vertical-align: inherit;
 }
+
+
+/*---------------------------------------
+   SECTION:  Buy Now
+-----------------------------------------*/
+
+#buynow {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #222222;
+}
+
+.app-brief .quote-box {
+    /*border: 1px solid white;*/
+}
+
+.app-brief .quote-box img{
+    width: 150px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+
+.app-brief .quote-box .buy-btn {
+    margin-bottom: 5px;
+}
+
+.app-brief .quote-box form {
+    width: 150px;
+    height: 45;
+    margin: auto;
+    margin-bottom: -45px;
+}
+
+.app-brief .bubble {
+    position: relative;
+    width: 300px;
+    padding: 5px;
+    background: #222222;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+}
+
+.app-brief .bubble p{
+    font-size: 12px;
+}
+
+.app-brief .bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 53px;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #222222 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
 
 
 /* VIDEO */
@@ -537,8 +607,8 @@ object {
     -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
             box-shadow: 0px 0px 0px 2px #ffffff;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 300px;
     line-height: 80px;
     margin: auto;
     margin-top: 5px;
@@ -812,6 +882,11 @@ footer .social-icons li {
 footer .social-icons li a {
     font-size: 30px;
     color: #636363;
+}
+
+footer .small-logo {
+    width: 150px;
+    height: 45px;
 }
 
 footer .copyright {
