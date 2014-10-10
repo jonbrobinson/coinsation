@@ -109,7 +109,7 @@ if (matchMedia('(min-width: 640px)').matches) {
       "width": 1280,
       "height": 720,
       "path": "video/",
-      "filename": "video",
+      "filename": "flag",
       "types": ["mp4","ogg","webm"]
     });
   });
@@ -183,7 +183,7 @@ $(document).ready(function () {
         navigation: false, // Show next and prev buttons
         slideSpeed: 800,
         paginationSpeed: 400,
-        autoPlay: 5000,
+        autoPlay: 20000,
         singleItem: true
     });
 
@@ -265,7 +265,7 @@ $("#contact").submit(function (e) {
     if (isValidEmail(email) && (message.length > 1) && (name.length > 1)) {
         $.ajax({
             type: "POST",
-            url: "sendmail.php",
+            url: "custom_sendmail.php",
             data: dataString,
             success: function () {
                 $('.success').fadeIn(1000);
@@ -295,8 +295,8 @@ $('.expand-form').simpleexpand({
 /* =================================
 ===  STELLAR                    ====
 =================================== */
-$(window).stellar({ 
-horizontalScrolling: false 
+$(window).stellar({
+horizontalScrolling: false
 });
 
 

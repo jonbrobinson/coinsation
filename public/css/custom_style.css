@@ -223,7 +223,7 @@ h5 {
 -----------------------------------------*/
 
 .section-header {
-    padding-bottom: 78px;
+    padding-bottom: 50px;
 }
 
 .section-header h2 {
@@ -283,6 +283,12 @@ header .color-overlay {
 header .full-screen {
     width: 100%;
     height: 100px;
+}
+
+header .social-media{
+     width: 200px;
+     height:20px;
+     margin: 0px;
 }
 
 /* TOP BAR WITH NAVIGATION */
@@ -368,9 +374,12 @@ header .intro-section .buttons {
     margin-top: 35px;
 }
 
-header .mil-logos {
-    padding-top: 10px;
+header .mil-logos img {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
     margin: auto;
+    margin-top: 30px;
 }
 
 /*---------------------------------------
@@ -434,13 +443,15 @@ header .mil-logos {
 }
 
 .features .phone-image {
-    max-width: 250px;
+    max-width: 320px;
     margin: auto;
     margin-bottom: 80px;
 }
 
 .features .phone-image img {
     width: 100%;
+    margin: auto;
+    margin-bottom:
 }
 
 
@@ -477,6 +488,7 @@ header .mil-logos {
 .app-brief .left-align {
     text-align: left;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .app-brief .left-align p {
@@ -509,26 +521,27 @@ header .mil-logos {
     background: #222222;
 }
 
+
 .app-brief .quote-box {
-    /*border: 1px solid white;*/
-}
+/*    border: 1px solid white;
+*/}
 
-.app-brief .quote-box img{
-    width: 150px;
-    height: 45px;
+.app-brief .buy-btn img{
+    width: 300px;
+    height: 90px;
     margin-bottom: 5px;
 }
 
-.app-brief .quote-box .buy-btn {
-    margin-bottom: 5px;
-}
-
-.app-brief .quote-box form {
-    width: 150px;
-    height: 45;
+.app-brief .buy-btn form {
+    width: 300px;
+    height: 90;
     margin: auto;
-    margin-bottom: -45px;
+    margin-bottom: -90px;
 }
+.app-brief .buy-btn {
+    margin-bottom: 20px;
+}
+
 
 .app-brief .bubble {
     position: relative;
@@ -576,7 +589,7 @@ object {
     background: transparent !important;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: 40px; 
+    margin-top: 80px;
 }
 
 .video {
@@ -585,7 +598,7 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  TESTIMONIALS                 
+   SECTION:  TESTIMONIALS
 -----------------------------------------*/
 .testimonials {
     color: #ffffff;
@@ -651,164 +664,14 @@ object {
 
 
 /*---------------------------------------
-   SECTION:  SERVICES           
------------------------------------------*/
-
-.services {
-    padding-top: 80px;
-    padding-bottom: 60px;
-    background: #222222;
-}
-
-.services .single-service {
-    padding-bottom: 60px;
-}
-
-.services .single-service .service-icon {
-    font-size: 80px;
-}
-
-.services .single-service h3 {
-    margin-top: 20px;
-}
-
-
-
-/*---------------------------------------
-   SECTION:  SCREENSHOTS 
------------------------------------------*/
-
-.screenshots {
-    padding-top: 80px;
-    padding-bottom: 120px;
-}
-
-.screenshots .shot {
-    background: #232323;
-    padding: 10px;
-    margin: 13px;
-    border-radius: 4px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    display: block;
-}
-
-.screenshots .shot img {
-    border-radius: 4px;
-    width: 100%;
-}
-
-
-/*---------------------------------------
-   SECTION:  PACKAGES | Added on version 1.7      
------------------------------------------*/
-
-.packages {
-    padding-top: 80px;
-    padding-bottom: 60px;
-    background: #222222;
-}
-
-.single-package {
-    background: #161616;
-    overflow: auto;
-    border: 0px solid #161616;
-    border-radius: 3px;
-    margin-bottom: 60px;
-}
-
-.single-package .price {
-    background: #222222;
-
-}
-.single-package .color-bg {
-    background-color: !important;
-}
-.single-package .price h2 {
-    color: #FFFFFF;
-}
-.single-package .price .sign {
-    vertical-align: super;
-    font-size: 20px;
-}
-
-.single-package .price .month {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-}
-
-.single-package .package-feature {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.single-package .package-feature > li {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.single-package .package-feature > li > span {
-  margin-right: 7px;
-}
-
-
-/*---------------------------------------
-   SECTION:  DOWNLOAD                 
------------------------------------------*/
-
-.download {
-    color: #ffffff;
-}
-
-.download .color-overlay {
-    padding-top: 110px;
-    padding-bottom: 70px;
-}
-
-.download .download-container {
-    padding-bottom: 80px;
-}
-
-.download .subscription-form-container {
-    padding-bottom: 80px;
-}
-
-.download .subscription-form .input-box {
-    height: 57px;
-    padding-left: 20px;
-    width: 320px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    background: #FFF;
-    border: 2px solid #FFF;
-}
-
-.download .subscription-form .input-box:focus, 
-.download .subscription-form .input-box:active {
-    color: #000;
-    font-weight: 400;
-}
-
-.download .subscription-form .subscription-success,
-.download .subscription-form .subscription-error {
-    display: none;
-}
-
-.download h2 {
-    margin-bottom: 30px;
-}
-
-
-/*---------------------------------------
-   SECTION:  FOOTER                
+   SECTION:  FOOTER
 -----------------------------------------*/
 footer {
      background: #222222;
 }
 
 footer .contact-box {
-    margin-bottom: 78px;
+    margin-bottom: 65px;
 }
 
 footer .contact-box .contact-button {
@@ -885,12 +748,17 @@ footer .social-icons li a {
 }
 
 footer .small-logo {
-    width: 150px;
-    height: 45px;
+    width: 200px;
+    height: 85px;
+    margin-bottom: 20px;
 }
 
 footer .copyright {
     color: #808080;
     padding-top: 10px;
     margin-bottom: 50px;
+}
+
+footer .modal {
+    color: black;
 }

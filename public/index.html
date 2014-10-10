@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="description" content="Display Pyramdid to present challenge coins or poker chips.  Great gift for ceremonies, ">
 <meta name="keywords" content="Coinsation LLC">
-<meta name="author" content="Theodore Oakley">
+<meta name="author" content="jonbrobinson@gmail.com">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 <!-- SITE TITLE -->
@@ -69,6 +69,14 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 <!-- =========================
      PRE LOADER
 ============================== -->
@@ -106,8 +114,8 @@
 				<ul class="nav navbar-nav navbar-right main-navigation">
 					<li><a href="#home">Home</a></li>
 					<li><a href="#features">Features</a></li>
-					<li><a href="#brief1">Why Us?</a></li>
-					<li><a href="#brief2">Describe</a></li>
+					<li><a href="#brief1">Ceremonies</a></li>
+					<li><a href="#brief2">Why Us?</a></li>
 					<li><a href="#buynow">Buy Now</a></li>
 					<li><a href="#about">Team</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -137,38 +145,42 @@
 
 					<!-- WELCOM MESSAGE -->
 					<h2 class="intro">Present your military coins in proud fashion with Coinsation's STRATCOIN display</h2>
-					<h5>Currently Available on Amazon and eBay.</h5>
+					<h5>Currently Available on Amazon and eBay. <a href="#buynow" class="btn btn-success btn-sm">Buy Now</a></h5>
 
 					<!-- BUTTON -->
 					<!-- <div class="buttons" id="download-button">
 
 						<a href="#download" class="btn btn-default btn-lg standard-button"><i class="icon-app-download"></i>Download App</a
 					</div> -->
-
-					<div>
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-							<input type="hidden" name="cmd" value="_s-xclick">
-							<input type="hidden" name="hosted_button_id" value="UK5EKHF6DDDAA">
-							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-						</form>
-					</div>
 					<!-- /END BUTTONS -->
+					    <div class="social-media">
+						    <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+						    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+					    </div>
+					    <div class="social-media">
+					    	<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+					    </div>
 				</div>
 				<!-- /END HEADNING AND BUTTONS -->
 			</div>
 
 
-			<div class="col-md-6 col-sm-6">
-
-			    <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE-->
+			<div class="col-md-6 col-sm-12">
 			    <div class="phone-image">
-			    	<img src="images/cs_images/cs_pyramid_overhead.png" class="" alt="pyramid">
-			    	<p>* Coins not included</p>
+			    	<img src="images/cs_images/cs_pyramid_overhead.png" class="" alt="stratcoin_pyramid">
+			    	<p>* Coins and Brass Name Plate not included</p>
 			    </div>
 			</div>
 			<div class="col-md-12 mil-logos">
-				<img src="images/cs_images/military_branches_logos.png">
+				<!-- <img src="images/cs_images/mil_group_logos.png" class="img-responsive"> -->
+
+				<img src="images/mil_branches/army.png" class="img-responsive">
+				<img src="images/mil_branches/airforce.png" class="img-responsive">
+				<img src="images/mil_branches/navy.png" class="img-responsive">
+				<img src="images/mil_branches/marines.png" class="img-responsive">
+				<img src="images/mil_branches/coastguard.png" class="img-responsive">
+				<img src="images/mil_branches/nationalguard.png" class="img-responsive">
 			</div>
 
 		</div>
@@ -243,7 +255,7 @@
 				<div class="fetaure-details">
 					<h4 class="main-color">Function</h4>
 					<p>
-						 It's sleek design & functionality holds 22 coins and/or casino chips that may vary in size & shape!
+						 It's sleek design & functionality holds 22 coins and/or casino chips that may vary in size & shape!...and it ROTATES!
 					</p>
 				</div>
 
@@ -276,9 +288,9 @@
 
 		<!-- PHONE IMAGE -->
 		<div class="col-md-4 col-sm-4">
-			<div class="phone-image wow bounceIn animated" data-wow-offset="120" data-wow-duration="1.5s">
-				<img src="images/pyramid_bare/position2v2.png" alt="">
-				<img src="images/pyramid_bare/position3v2.png" alt="">
+			<div class="phone-image wow bounceIn animated row" data-wow-offset="120" data-wow-duration="1.5s">
+				<img src="images/pyramid_bare/position2v2.png" alt="" class="img-responsive">
+				<img src="images/pyramid_bare/position3v2.png" alt="" class="img-responsive">
 			</div>
 		</div>
 
@@ -320,7 +332,7 @@
 				<div class="fetaure-details">
 					<h4 class="main-color">Gift</h4>
 					<p>
-						 -- <a href="#buynow">BUY STRATCOIN</a> for yourself your loved one or a fellow service member! ...you, they deserve it.
+						 Give as a gift for yourself, your loved one, or a fellow service member! ...you, they deserve it.
 					</p>
 				</div>
 
@@ -341,7 +353,7 @@
 				<div class="fetaure-details">
 					<h4 class="main-color">Veteran Owned Business</h4>
 					<p>
-						 Invented & patented by a service-disabled veteran. Finally! An innovative military challenge coin display--STRATCOIN--the 'STRAT'egic 'COIN' display...and it ROTATES!
+						 Invented & patented by a service-disabled veteran. Finally! An innovative military challenge coin display--STRATCOIN--the 'STRAT'egic 'COIN' display
 					</p>
 				</div>
 
@@ -375,7 +387,7 @@
 		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			<div class="phone-image">
 				<img src="images/cs_images/cs_normal.png" alt="Stratcoin Pyramid w/Coins" class="image-custom">
-				<p class="">* Coins earned seperately</p>
+				<p>* Coins not included</p>
 			</div>
 		</div>
 
@@ -388,19 +400,16 @@
 			<div class="colored-line-left">
 			</div>
 
-			<!-- <p>
-				The STRATCOIN was made in the spirit of military tradition-- invented and patented by an active duty Air Force member. Its contemporary design transcends the traditional without sacrificing our great American tradition. Well known as an awesome gift and conversational piece for your home and office--enjoy!
-			</p> -->
 			<p>
 				Making the arrangements for a retirement or formal ceremony? We can help! Remember, you never get a second chance to make a first impression, especially in business. Coinsation affords you an opportunity to offer a unique, first-class corporate image! Well known as an awesome gift and conversational piece for your home and office--enjoy!
 			</p>
 
 			<!-- FEATURE LIST -->
 			<ul class="feature-list">
-				<li><i class="icon_lock_alt"></i> Retirements/Promotions/Hails & Farewells</li>
-				<li><i class="icon_check_alt2"></i> Awards & Recognition Ceremonies</li>
-				<li><i class="icon_paperclip"></i> Corporate Giveaways</li>
-				<li><i class="icon_adjust-vert"></i> Vendors/Retailers! - Contact Us</li>
+				<li><i class="icon_group"></i> Retirements/Promotions/Hails & Farewells</li>
+				<li><i class="icon_ribbon"></i> Awards & Recognition Ceremonies</li>
+				<li><i class="icon_briefcase_alt"></i> Corporate Giveaways</li>
+				<li><i class="icon_mail"></i> Vendors/Retailers! - <a href="#contact" title="">Contact Us</a></li>
 			</ul>
 
 		</div>
@@ -470,7 +479,7 @@
 	<div class="section-header wow fadeIn animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 		<!-- SECTION TITLE -->
-		<h2 class="white-text">Buy Now !</h2>
+		<h2 class="white-text">Buy Now!</h2>
 
 		<div class="colored-line">
 		</div>
@@ -482,30 +491,13 @@
 
 	</div>
 
-	<div class="col-md-4 quote-box">
-		<div>
-			<a href="http://www.amazon.com/STRATCOIN-Pyramid-Rotatable-Military-Challenge/dp/B0064HMJYI/ref=sr_1_1?s=leisure-sports-games&ie=UTF8&qid=1412031979&sr=1-1"><img src="images/amazon_logo.jpg" class=""></a><br>
+	<div class="buy-btn col-md-12">
+		<div class="col-md-4">
+			<a href="http://www.amazon.com/STRATCOIN-Pyramid-Rotatable-Military-Challenge/dp/B0064HMJYI/ref=sr_1_1?s=leisure-sports-games&ie=UTF8&qid=1412031979&sr=1-1"><img src="images/amazon_clear_logo.png" class=""></a><br>
 			<a href="http://www.amazon.com/STRATCOIN-Pyramid-Rotatable-Military-Challenge/dp/B0064HMJYI/ref=sr_1_1?s=leisure-sports-games&ie=UTF8&qid=1412031979&sr=1-1" class="btn btn-success active buy-btn">Buy on Amazon</a>
 		</div>
 
-		<div class="bubble">
-			<p>I love the uniqueness of this design. It gets a lot of compliments and also has people looking harder at the coins since it spins and they look at the coins longer. Seems very sturdy so far with a lot of people coming in and spinning it around.</p>
-		</div>
-		<p> - Jeff Manbeck</p>
-
-		<div class="bubble">
-			<p>I found this display as a gift for my husband's 45th anniversary of being shot in Vietnam. Every year I try to find an appropriate gift to recognize the fact he lived (although blinded). This product was made by a disable Vet so it had special meaning. Everyone loves it!!!! Buy one</p>
-		</div>
-		<p> - L. Strnad "Lady Lynn" </p>
-		<div class="bubble">
-			<p>Outstanding presentation of my challenge coin collection, Ive already received multiple compliments on it. Holds different shaped challenge coins as well, not just circular designs.</p>
-		</div>
-		<p> - Jannik Borrit-Hansen </p>
-
-	</div>
-	<div class="col-md-4 quote-box">
-
-		<div>
+		<div class="col-md-4">
 			<img src="images/cs_images/cs_logo_slogan.png" alt="">
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 				<input type="hidden" name="cmd" value="_s-xclick">
@@ -514,6 +506,33 @@
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
 		</div>
+
+		<div class="col-md-4">
+			<a href="http://www.ebay.com/itm/Rotatable-Challenge-Coin-Poker-Chip-Display-Holder-Blue-/281452373444?"><img src="images/ebay_clear_logo.png" class=""></a><br>
+			<a href="http://www.ebay.com/itm/Rotatable-Challenge-Coin-Poker-Chip-Display-Holder-Blue-/281452373444?" class="btn btn-success active buy-btn">Buy on eBay</a>
+		</div>
+
+	</div>
+
+	<div class="col-md-4 quote-box">
+
+		<div class="bubble">
+			<p>I love the uniqueness of this design. It gets a lot of compliments and also has people looking harder at the coins since it spins and they look at the coins longer. Seems very sturdy so far with a lot of people coming in and spinning it around.</p>
+		</div>
+		<p> - Jeff M.</p>
+
+		<div class="bubble">
+			<p>I found this display as a gift for my husband's 45th anniversary of being shot in Vietnam. Every year I try to find an appropriate gift to recognize the fact he lived (although blinded). This product was made by a disable Vet so it had special meaning. Everyone loves it!!!! Buy one</p>
+		</div>
+		<p> - L. Strnad</p>
+		<div class="bubble">
+			<p>Outstanding presentation of my challenge coin collection, Ive already received multiple compliments on it. Holds different shaped challenge coins as well, not just circular designs.</p>
+		</div>
+		<p> - Jannik B.</p>
+
+	</div>
+	<div class="col-md-4 quote-box">
+
 		<div class="bubble">
 			<p>I had been looking for a way to display my small collection of challenge coins. All I could find were cases, which do not work well on a desk. This is the perfect size and shape for the corner of my desk, plus it serves as a business card holder as well. Perfect solution!</p>
 		</div>
@@ -522,23 +541,18 @@
 			<p>This holds my business cards and my memories of a long and sometimes less than perfect military career. It is a nice way to share my experiences with my clients without feeling or sounding phony. They simply ask me how I received certain coins and the conversation starts from there. It has also allowed me to connect with others that want to share their military stories.
 			Great product classy but not flashy and a good bargain.</p>
 		</div>
-		<p> - Ritchard Rummel</p>
+		<p> - Ritchard R.</p>
 		<div class="bubble">
 			<p>My son really loves this display. It's not your typical slot in a piece of wood. And I especially liked that it was made by veterens and they shipped to an APO address.</p>
 		</div>
-		<p> - Laurie Taylor</p>
+		<p> - Laurie T.</p>
 	</div>
 	<div class="col-md-4 quote-box">
 
-		<div>
-			<a href="http://www.ebay.com/itm/Rotatable-Challenge-Coin-Poker-Chip-Display-Holder-Blue-/281452373444?"><img src="images/ebay_logo.png" class=""></a><br>
-			<a href="http://www.ebay.com/itm/Rotatable-Challenge-Coin-Poker-Chip-Display-Holder-Blue-/281452373444?" class="btn btn-success active buy-btn">Buy on eBay</a>
-		</div>
-
 		<div class="bubble">
-			<p>Outstanding presentation of my challenge coin collection, Ive already received multiple compliments on it. Holds different shaped challenge coins as well, not just circular designs.</p>
+			<p>I bought this as a gift for someone who collects display poker chips and other things. He really liked the gift, said it was well made and "something different." As a buyer, I found it positive that the pyramid is made by Veterans.</p>
 		</div>
-		<p> - Jannik Borrit-Hansen</p>
+		<p> - T. Goldfarb</p>
 		<div class="bubble">
 			<p>Serves its purpose and a unique design. Spins with ease and holds coins pretty well. Even has a spot for business cards or a custom-sticky name plate if you want to make one. It's fairly cheap plastic though and will probably break if it falls off a desk so be careful with it! But it was a cheap price so no worries</p>
 		</div>
@@ -546,7 +560,7 @@
 		<div class="bubble">
 			<p>This pyramid is so much bigger and better then I thought it would be! It's beautiful!!! My husband is retierd from the USAF and this pyramid holds his most treasured military coins with pride! I will be buying another one for sure! I highly recommend this to anyone that wants to show there coins off with pride!</p>
 		</div>
-		<p> - Amber Smith</p>
+		<p> - Amber S.</p>
 
 	</div>
 
@@ -556,18 +570,9 @@
 		<div class="col-md-6 wow fadeInRight animated" data-wow-offset="10" data-wow-duration="1.5s">
 			<div class="video-container">
 
-                <!--
-				<div class="video">
-
-					<iframe src="//player.vimeo.com/video/88902745?byline=0&amp;portrait=0&amp;color=ffffff" width="600" height="338" frameborder="0" allowfullscreen>
-					</iframe>
-				</div>
-				-->
-
 				<div class"video">
-					<iframe width="640" height="360" src="//www.youtube.com/embed/I70tEsLpuy4" frameborder="0" allowfullscreen></iframe>
+					<iframe width="640" height="360" src="//www.youtube.com/embed/8JRNrRx3vZw" frameborder="0" allowfullscreen></iframe>
 				</div>
-
 			</div>
 
 		</div>
@@ -576,7 +581,7 @@
 		<div class="col-md-6 left-align wow fadeInLeft animated" data-wow-offset="10" data-wow-duration="1.5s">
 
 			<!-- SECTION TITLE -->
-			<h2 class="white-text">Video</h2>
+			<h2 class="white-text">Coinsation Story</h2>
 
 			<div class="colored-line-left">
 			</div>
@@ -617,11 +622,11 @@
 				<!-- IMAGE -->
 				<div class="image">
 					<!-- i class=" icon_quotations"></i -->
-					<img src="images/cs_images/ted_profilev2.jpg" alt="">
+					<img src="images/cs_images/ted_profilev3.jpg" alt="" class='img-responsive'>
 				</div>
 
 				<div class="message">
-					 If you've gotten this far on our site, you're more than interested and deserve a special thanks--either for your direct service to our country or indirect service, which is just as special, as a spouse or family member of a service member. I've proudly served and have designed a product I'm proud to see on a soldier's, sailor's, airman's, marine's or veteran's desk. Each one of their coins represents a specific time and event in their life as a military veteran. I designed this product with that in mind; simply rotate the pyramid, pick up a soldier's coin and it will definitely have a story behind it--if it can be told (LOL)--enjoy
+					 If you've gotten this far on our site, you're more than interested and deserve a special thanks--either for your direct service to our country or indirect service, which is just as special, as a spouse or family member of a service member. I've proudly served and have designed a product I'm proud to see on a soldier's, sailor's, airman's, marine's or veteran's desk. Each one of their coins represents a specific time and event in their life as a military veteran. I designed this product with that in mind; simply rotate the pyramid, pick up a soldier's coin and it will definitely have a story behind it.
 				</div>
 
 				<div class="white-line">
@@ -637,7 +642,6 @@
 
 			</div>
 			<!-- /END SINGLE FEEDBACK -->
-
 
 		</div>
 		<!-- /END FEEDBACKS -->
@@ -798,7 +802,6 @@
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	        <button type="button" class="btn btn-primary">Save changes</button>
 	      </div>
 	    </div>
 	  </div>
