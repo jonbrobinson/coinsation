@@ -114,7 +114,7 @@ li {
 
 
 /*---------------------------------------
-   Typography                
+   Typography
 -----------------------------------------*/
 
 /* FONT FACE LOADER */
@@ -249,6 +249,16 @@ h5 {
     height: 1px;
 }
 
+.colored-line-long {
+    margin: auto;
+    z-index: 1;
+    height: 1px;
+    margin-top: 75px;
+    background-color: #008ed6;
+}
+
+
+
 .white-line {
     margin: auto;
     z-index: 1;
@@ -285,11 +295,11 @@ header .full-screen {
     height: 100px;
 }
 
-header .social-media{
-     width: 200px;
+/*header .social-media{
+     width: 100px;
      height:20px;
      margin: 0px;
-}
+}*/
 
 /* TOP BAR WITH NAVIGATION */
 
@@ -382,6 +392,20 @@ header .mil-logos img {
     margin-top: 30px;
 }
 
+header .intro-section .link {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+header .intro-section .link:hover {
+    text-decoration: underline;
+    color: #008ed6;
+}
+
+header .social-media {
+    width: 300px;
+    height: 20px;
+}
 /*---------------------------------------
    SECTION:  FEATURES
 -----------------------------------------*/
@@ -465,7 +489,17 @@ header .mil-logos img {
     background: #222222;
 }
 
+.app-brief-alt {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #222222;
+}
+
 .app-brief h2 {
+    margin-bottom: 20px;
+}
+
+.app-brief-alt h2 {
     margin-bottom: 20px;
 }
 
@@ -488,10 +522,20 @@ header .mil-logos img {
 .app-brief .left-align {
     text-align: left;
     margin-bottom: 50px;
-    margin-top: 50px;
 }
 
 .app-brief .left-align p {
+    display: block;
+    float: none;
+    margin-top: 50px;
+}
+
+.app-brief-alt .left-align {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.app-brief-alt .left-align p {
     display: block;
     float: none;
     margin-top: 50px;
@@ -532,9 +576,12 @@ header .mil-logos img {
     margin-bottom: 5px;
 }
 
+.app-brief .amazon {
+    margin-top: 12px;
+}
 .app-brief .buy-btn form {
     width: 300px;
-    height: 90;
+    height: 90px;
     margin: auto;
     margin-bottom: -90px;
 }
@@ -545,7 +592,7 @@ header .mil-logos img {
 
 .app-brief .bubble {
     position: relative;
-    width: 300px;
+    width: 350px;
     padding: 5px;
     background: #222222;
     -webkit-border-radius: 16px;
@@ -554,7 +601,7 @@ header .mil-logos img {
 }
 
 .app-brief .bubble p{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .app-brief .bubble:after {
@@ -574,6 +621,10 @@ header .mil-logos img {
 
 /* VIDEO */
 
+#video {
+    background: #222222;
+    padding-bottom: 50px;
+}
 video {
     height: auto;
 }
@@ -589,7 +640,6 @@ object {
     background: transparent !important;
     margin: auto;
     margin-bottom: 50px;
-    margin-top: 80px;
 }
 
 .video {
@@ -600,9 +650,41 @@ object {
 /*---------------------------------------
    SECTION:  TESTIMONIALS
 -----------------------------------------*/
+
+.testimonials .ceo-box .image {
+    font-size: 24px;
+    border: 2px solid transparent;
+    -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
+            box-shadow: 0px 0px 0px 2px #ffffff;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    line-height: 80px;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.testimonials .ceo-box .message {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.testimonials .ceo-box .name {
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.testimonials .ceo-box .company-info {
+    font-size: 12px;
+}
+
 .testimonials {
     color: #ffffff;
 }
+
 
 .testimonials .color-overlay {
     padding-top: 110px;
@@ -620,8 +702,8 @@ object {
     -webkit-box-shadow: 0px 0px 0px 2px #ffffff;
             box-shadow: 0px 0px 0px 2px #ffffff;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     line-height: 80px;
     margin: auto;
     margin-top: 5px;
@@ -731,6 +813,10 @@ footer .contact-box .expanded-contact-form .textarea-box:focus,     {
     color: #FFF;
 }
 
+footer .contact-box p{
+    text-align: left;
+}
+
 footer .social-icons {
     margin-top: 30px;
     border-bottom: 1px solid #111111;
@@ -761,4 +847,11 @@ footer .copyright {
 
 footer .modal {
     color: black;
+    text-align: left;
 }
+
+footer .modal h4  {
+    color: black;
+    text-align: center;
+}
+
