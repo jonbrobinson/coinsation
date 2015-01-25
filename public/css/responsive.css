@@ -9,19 +9,19 @@ RESPONSIVE FIXES
 @media (max-width: 640px) {
     
     header {
-    background: url('../images/bg-1.jpg') no-repeat center;
+    background: url('../images/flag_bg.jpg') no-repeat center;
     -webkit-background-size: cover;
             background-size: cover;
     }
     
     .testimonials {
-    background: url('../images/bg-2.jpg') no-repeat center;
+    background: url('../images/flag_bg.jpg') no-repeat center;
     -webkit-background-size: cover;
             background-size: cover;
     }
     
     .download {
-    background: url('../images/bg-3.jpg') no-repeat center;
+    background: url('../images/flag_bg.jpg') no-repeat center;
     -webkit-background-size: cover;
             background-size: cover;
     

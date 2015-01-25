@@ -6,7 +6,7 @@ use Mailgun\Mailgun;
 $mgClient = new Mailgun('key-bfbdd530ab6e397261a81dd320f9edcf');
 $domain = "sandbox6f543aca5c93485abadae62657a3d854.mailgun.org";
 
-$emailTo = "jonbrobinson@gmail.com";
+$emailTo = "support@coinsation.com";
 
 
 // Email Submit
@@ -23,8 +23,8 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject'])
   $result = $mgClient->sendMessage($domain, array(
       'from'    => $_POST['name'] .' <' . $_POST['email'] . '>',
       'to'      => 'Ted Oakley <'. $emailTo . '>',
-      'subject' => '[Coinsation Message]' . $_POST['subject'],
-      'text'    => "Message from {$_POST['name']} \n" .$_POST['message']
+      'subject' => '[Coinsation Message] ' . $_POST['subject'],
+      'text'    => "Message from {$_POST['name']} \n\n" .$_POST['message']
   ));
 }
 ?>
